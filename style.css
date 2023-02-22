@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    background-color: #000000;
+    background-image: linear-gradient(to top, #212d329c, #000000);
+
+    /* display: none; */
+}
+.newcontainer{
+    background-color: red;
+    position: relative;
+    width: 100px;
+    
+}
+.new_container{
+    /* background-color: aqua; */
+    
+    width: 500px;
+    height: 125px;
+    /* text-align: center; */
+}
+.title{
+	color: rgb(72, 202, 228);
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 1.5rem;
+}
+.container{
+    background-color: #212d329c;
+    /* margin-top: 12px; */
+}
+#setup{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    padding: 1rem;
+}
+#setup button{
+    border: 0;
+    position: relative;
+    /* right: 42%; */
+    padding: .5rem;
+    font-family: inherit;
+    font-weight: 700;
+	background-color:#2e3750;
+    letter-spacing: 0.5rem;
+}
+#setup button:hover{
+	color: rgb(72, 202, 228);
+    box-shadow: 1px 0 10px 5px #48cae4;
+    border: 1px solid rgba(72, 202, 228, 0.489);
+}
+#game{
+    /* padding: 12px; */
+    /*background-color: rgb(111, 255, 0);
+    */display: none;
+    text-align: center;
+    padding: 0.5rem;
+}
+#game input{
+    /* opacity: 0; */
+    padding: 0.2rem;
+    outline: none;
+    margin: 1rem;
+}
+#game input:hover{
+    box-shadow: 1px 0 10px 5px #48cae4;
+}
+#result_decimals{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #585858;
+}
+.new_container{
+    width: 500px;
+    height: 125px;
+}
+/* @media (min-width: 400px){
+    
+} */
